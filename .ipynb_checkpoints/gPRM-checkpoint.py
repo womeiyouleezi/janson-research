@@ -33,17 +33,20 @@ class gPRM:
         del(self.E)
         
         self.V = SampleFree(self.n, self.D, self.x_init, self.x_goal)
-        self.E = Near(self.V, self.r_function(n))
-        self.length = ShortestPath(self.E, 0, n+1)
+        self.E = Near(self.V, self.r_function(self.n, self.D))
+        self.length = ShortestPath(self.E, 0, 1+self.n)
         
-    def return_V(self):
+    def get_V(self):
         return self.V
     
-    def return_E(self):
+    def get_E(self):
         return self.E
         
-    def return_length(self):
+    def get_length(self):
         return self.length
+    
+    def get_error(self):
+        return np.abs(self.length - self.true_distance)
         
     
     
