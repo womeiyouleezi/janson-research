@@ -78,6 +78,9 @@ class gPRM:
     def get_length(self):
         return self.length
     
+    def get_true_distance(self):
+        return self.true_distance
+    
     def get_error(self):
         return np.abs(self.length - self.true_distance)
     

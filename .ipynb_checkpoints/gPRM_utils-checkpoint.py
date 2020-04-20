@@ -31,7 +31,7 @@ def dijkstra(edges, init, goal):
                 dist[v2] = cost+c
                 heappush(q, (cost+c, v2, path))
 
-    return float("inf")
+    return (-1, None)
 
 
 # This will compute X_near for all vertices in V in one go
