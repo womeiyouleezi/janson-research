@@ -11,7 +11,7 @@ def r(num_points, dimension):
 
 D = sys.argv[1]
 n = sys.argv[2]
-num_simulations = sys.arv[3]
+num_simulations = sys.argv[3]
 np.random.seed(sys.argv[4])      # seeding
 
 x_init = np.array([0.1] * D)
