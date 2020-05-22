@@ -21,6 +21,7 @@ true_distance = np.linalg.norm(x_init - x_goal)
 G = gPRM(n, D, x_init, x_goal)
 
 # the actual simulations
+i = 0
 while i < (num_simulations):
     G.sample_points()
     G.run_simulation(r(n, D))
