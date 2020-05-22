@@ -9,10 +9,10 @@ def r(num_points, dimension):
 
 # input should be D, n, num_simulations, random_seed
 
-D = sys.argv[1]
-n = sys.argv[2]
-num_simulations = sys.argv[3]
-np.random.seed(sys.argv[4])      # seeding
+D = int(sys.argv[1])
+n = int(sys.argv[2])
+num_simulations = int(sys.argv[3])
+np.random.seed(int(sys.argv[4]))      # seeding
 
 x_init = np.array([0.1] * D)
 x_goal = np.array([0.9] * D)
