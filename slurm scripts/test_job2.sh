@@ -13,7 +13,8 @@ i=0
 seed=1000
 module load Anaconda3/5.0.1-fasrc02
 source activate junulee_env1
-while [ “$i” -lt 5 ]; do
+while [ "$i" -lt "5" ]; do
 	python ../gPRM_simulation_junulee.py 2 1000 1 $seed
 	i=`expr $i + 1`
 	seed=`expr $seed + 1000`
+done
