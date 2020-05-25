@@ -28,8 +28,8 @@ while i < (num_simulations):
     
     # if the algorithm fails to return a path
     if G.get_length() < -0.5:
-    	i += 1
-    	continue
+        i += 1
+        continue
         
     relative_error = G.get_error() / true_distance
     print(relative_error)
