@@ -102,11 +102,11 @@ class gPRM:
         path_edges = np.array(path_edges)
         
         # plot points here
-        plt.figure(figsize=(15,15))
+        plt.figure(figsize=(10,10))
         plt.margins(0)
 
-        plt.scatter(x, y, s=8)
-        plt.scatter(x_pp, y_pp, s=8, c='red')
+        plt.scatter(x, y, s=7)
+        plt.scatter(x_pp, y_pp, s=7, c='red')
         plt.scatter(x_ip, y_ip, s=20, c='gold')
 
         for edge in edges:
@@ -138,13 +138,13 @@ class gPRM:
             y_scatter.append(angle)
             
         # plot the scatterplot
-        plt.figure(figsize=(10,10))
+        plt.figure(figsize=(8,8))
         axes = plt.gca()
         axes.set_xlim([0,0.1])
         #axes.margins(y=0.01)
 
         plt.scatter(x_scatter, y_scatter, s=20, c='blue')
-        plt.title('Signed Angle Displacement x Edge Length; Simulation'+str(simulation_index))
+        plt.title('Signed Angle Displacement x Edge Length; Simulation '+str(simulation_index))
         plt.xlabel('path edge length')
         plt.ylabel('path edge signed angle displacement w.r.t x_goal')
         plt.savefig(filename+'.png')
