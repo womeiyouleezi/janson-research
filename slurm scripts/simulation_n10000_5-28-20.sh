@@ -9,10 +9,10 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=junulee@college.harvard.edu
 #SBATCH --open-mode=append
-i=0
+i=1
 module load Anaconda3/5.0.1-fasrc02
 source activate junulee_env1
-while [ "$i" -lt "50" ]; do
+while [ "$i" -lt "51" ]; do
         python ../gPRM_script-1.py 2 10000 10 $i
         i=`expr $i + 1`
 done
