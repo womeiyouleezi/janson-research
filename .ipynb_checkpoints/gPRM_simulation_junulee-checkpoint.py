@@ -7,14 +7,16 @@ from gPRM import gPRM
 def r(num_points, dimension):
     return np.power(np.log(num_points) / num_points, 1 / dimension) 
 
-# input should be D, n, r, random_seed
+# input should be D, n, r, simulation_index
 
 D = int(sys.argv[1])
 n = int(sys.argv[2])
 r = float(sys.arv[3])
-#num_simulations = int(sys.argv[4])
-seed=int(sys.argv[4])
-np.random.seed(seed)      # seeding
+s_ix=int(sys.argv[4])
+
+# seeding 
+seed = 1000 + 1000 * s_ix
+np.random.seed(seed)      
 
 x_init = np.array([0.1] * D)
 x_goal = np.array([0.9] * D)
@@ -38,8 +40,6 @@ while i < 1:
     # to stdout
     print('Seed: '+str(seed))
     print(str(relative_error))
-    
-    # visuals
                 
     i += 1
 

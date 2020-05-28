@@ -40,8 +40,6 @@ while i < 1:
     # to stdout
     print('Seed: '+str(seed))
     print(str(relative_error))
-    
-    # visuals
                 
     i += 1
 
