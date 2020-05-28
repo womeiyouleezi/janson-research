@@ -1,7 +1,8 @@
 import numpy as np
 from scipy.spatial import KDTree
-import matplotlib
+import matplotlib.pyplot as plt
 
+import math
 from collections import defaultdict
 from heapq import *
 
@@ -65,7 +66,99 @@ class gPRM:
         # shortest path algorithm
         self.length, self.path = ShortestPath(self.E, 0, 1+self.n)
         
+    # Visualization of the random graph in two dimensions
+    def visualize_graph(r, simulation_index, show_edges='relevant', filename=None):
+        assert show_edges in {'relevant', 'optimal', 'all'}, "show_edges needs one of the following paramters: 'relevant', 'optimal', 'all'"
+        if filename is None:
+            filename = str(simulation_index)
+        
+        # construct points, path points, and init points
+        # points = np.array(self.V)
+        path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+        init_points = np.array([self.x_init, self.x_goal])
+
+        x, y = np.array(self.V).T 
+        x_pp, y_pp = path_points.T
+        x_ip, y_ip = init_points.T
+        
+        edges = []
+        if show_edges=='optimal':
+            # actually, do nothing here
+        else:
+            for e in self.E:
+                # e[0] is the index for the tail, e[1] is the index for the head
+                tail = e[0]
+                head = e[1]
+                if show_edges=='relevant':
+                    if (tail not in self.path) and (head not in self.path):
+                        continue
+                edges.append(np.array([self.V[tail], self.V[head]]))
+        edges = np.array(edges)
+        
+        path_edges = []
+        for j in range(len(self.path)-1):
+            path_edges.append(np.array([self.V[self.path[j]], self.V[self.path[j+1]]]))
+        path_edges = np.array(path_edges)
+        
+        # plot points here
+        plt.figure(figsize=(15,15))
+        plt.margins(x=0.00, y=0.00)
+
+        plt.scatter(x, y, s=8)
+        plt.scatter(x_pp, y_pp, s=8, c='red')
+        plt.scatter(x_ip, y_ip, s=20, c='gold')
+
+        for edge in edges:
+            xe, ye = edge.T
+            plt.plot(xe, ye, 'c-', linewidth=1, alpha=0.075)
+        for edge in path_edges:
+            xs, ys = edge.T
+            plt.plot(xs, ys, 'r-', linewidth=1)
+        
+        title = 'PRM output for D='+str(self.D)+', n='+str(self.n)+', r='+str(r)
+                  +'; Simulation '+str(simulation_ix)+' - '+show_edges
+                  +'; Relative error: '+str(np.abs(self.length - self.true_distance) / self.true_distance)
+        plt.title(title)
+        plt.savefig(filename+'-'+show_edges+'.png')
+        plt.close()
+        
+    def path_angle_scatterplot(simluation_index, filename=None):
+        if filename is None:
+            filename = 'Scatterplot-'+str(simulation_index)
+        
+        # construct x and y for scatterplot; x is path length, y is angle displacement
+        x_scatter = []
+        y_scatter = []
+        for ix in range(len(self.path)-1):
+            vect_1 = self.V[self.path[ix+1]] - self.V[self.path[ix]]
+            vect_2 = self.x_goal - self.V[self.path[ix]]
+            angle = math.atan2(vect_1[0]*vect_2[1] - vect_1[1]*vect_2[0], vect_1[0]*vect_2[0] + vect_1[1]*vect_2[1])
+            x_scatter.append(np.linalg.norm(vect_1))
+            y_scatter.append(angle)
+            
+        # plot the scatterplot
+        plt.figure(figsize=(10,10))
+        axes = plt.gca()
+        axes.set_xlim([0,0.1])
+        axes.margins(y=0.01)
+
+        plt.scatter(x_scatter, y_scatter, s=20, c='xkcd:plum')
+        plt.title('Signed Angle Displacement x Edge Length; Simulation '+str(simulation_ix)
+        plt.xlabel('path edge length')
+        plt.ylabel('path edge signed angle displacement w.r.t x_goal')
+        plt.savefig(filename+'.png')
+        plt.close()
+        
     # The following are retrieval methods    
+    def get_D(self):
+        return self.D
+    
+    def get_n(self):
+        return self.n
+    
+    def get_init(self):
+        return self.x_init, self.x_goal
+        
     def get_V(self):
         return self.V
     

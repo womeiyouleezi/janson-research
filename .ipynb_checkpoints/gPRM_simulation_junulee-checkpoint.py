@@ -7,12 +7,14 @@ from gPRM import gPRM
 def r(num_points, dimension):
     return np.power(np.log(num_points) / num_points, 1 / dimension) 
 
-# input should be D, n, num_simulations, random_seed
+# input should be D, n, r, random_seed
 
 D = int(sys.argv[1])
 n = int(sys.argv[2])
-num_simulations = int(sys.argv[3])
-np.random.seed(int(sys.argv[4]))      # seeding
+r = float(sys.arv[3])
+#num_simulations = int(sys.argv[4])
+seed=int(sys.argv[4])
+np.random.seed(seed)      # seeding
 
 x_init = np.array([0.1] * D)
 x_goal = np.array([0.9] * D)
@@ -22,16 +24,22 @@ G = gPRM(n, D, x_init, x_goal)
 
 # the actual simulations
 i = 0
-while i < (num_simulations):
+while i < 1:
     G.sample_points()
-    G.run_simulation(r(n, D))
+    G.run_simulation(r)
     
     # if the algorithm fails to return a path
     if G.get_length() < -0.5:
+        i += 1
         continue
         
     relative_error = G.get_error() / true_distance
-    print(relative_error)
+    
+    # to stdout
+    print('Seed: '+str(seed))
+    print(str(relative_error))
+    
+    # visuals
                 
     i += 1
 
