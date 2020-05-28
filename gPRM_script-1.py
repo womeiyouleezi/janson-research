@@ -16,7 +16,7 @@ from gPRM import gPRM
 
 D = int(sys.argv[1])
 n = int(sys.argv[2])
-r = float(sys.arv[3])/100
+r = float(sys.argv[3])/100
 s_ix=int(sys.argv[4])
 
 # seeding 

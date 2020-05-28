@@ -67,7 +67,7 @@ class gPRM:
         self.length, self.path = ShortestPath(self.E, 0, 1+self.n)
         
     # Visualization of the random graph in two dimensions
-    def visualize_graph(r, simulation_index, show_edges='relevant', filename=None):
+    def visualize_graph(self, r, simulation_index, show_edges='relevant', filename=None):
         assert show_edges in {'relevant', 'optimal', 'all'}, "show_edges needs one of the following paramters: 'relevant', 'optimal', 'all'"
         if filename is None:
             filename = str(simulation_index)
@@ -84,6 +84,7 @@ class gPRM:
         edges = []
         if show_edges=='optimal':
             # actually, do nothing here
+            pass
         else:
             for e in self.E:
                 # e[0] is the index for the tail, e[1] is the index for the head
@@ -102,7 +103,7 @@ class gPRM:
         
         # plot points here
         plt.figure(figsize=(15,15))
-        plt.margins(x=0.00, y=0.00)
+        plt.margins(0)
 
         plt.scatter(x, y, s=8)
         plt.scatter(x_pp, y_pp, s=8, c='red')
@@ -115,14 +116,14 @@ class gPRM:
             xs, ys = edge.T
             plt.plot(xs, ys, 'r-', linewidth=1)
         
-        title = 'PRM output for D='+str(self.D)+', n='+str(self.n)+', r='+str(r)
-                  +'; Simulation '+str(simulation_ix)+' - '+show_edges
+        title = 'PRM output for D='+str(self.D)+', n='+str(self.n)+', r='+str(r)\
+                  +'; Simulation '+str(simulation_index)+' - '+show_edges\
                   +'; Relative error: '+str(np.abs(self.length - self.true_distance) / self.true_distance)
         plt.title(title)
         plt.savefig(filename+'-'+show_edges+'.png')
         plt.close()
         
-    def path_angle_scatterplot(simluation_index, filename=None):
+    def path_angle_scatterplot(self, simulation_index, filename=None):
         if filename is None:
             filename = 'Scatterplot-'+str(simulation_index)
         
@@ -140,10 +141,10 @@ class gPRM:
         plt.figure(figsize=(10,10))
         axes = plt.gca()
         axes.set_xlim([0,0.1])
-        axes.margins(y=0.01)
+        #axes.margins(y=0.01)
 
-        plt.scatter(x_scatter, y_scatter, s=20, c='xkcd:plum')
-        plt.title('Signed Angle Displacement x Edge Length; Simulation '+str(simulation_ix)
+        plt.scatter(x_scatter, y_scatter, s=20, c='blue')
+        plt.title('Signed Angle Displacement x Edge Length; Simulation'+str(simulation_index))
         plt.xlabel('path edge length')
         plt.ylabel('path edge signed angle displacement w.r.t x_goal')
         plt.savefig(filename+'.png')
