@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH -n 1
 #SBATCH -N 1
-#SBATCH -t 0-03:00
+#SBATCH -t 0-18:00
 #SBATCH -p serial_requeue               # or could be shared
-#SBATCH --mem=2000
+#SBATCH --mem=3500
 #SBATCH -o data/dim2_n10000.out                # use %j for jobid
 #SBATCH -e data/dim2_n10000.err
 #SBATCH --mail-type=ALL
