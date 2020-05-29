@@ -1,0 +1,100 @@
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+/net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
