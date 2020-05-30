@@ -150,6 +150,8 @@ class gPRM:
         plt.savefig(filename+'.png')
         plt.close()
         
+        return x_scatter, y_scatter
+        
     # The following are retrieval methods    
     def get_D(self):
         return self.D

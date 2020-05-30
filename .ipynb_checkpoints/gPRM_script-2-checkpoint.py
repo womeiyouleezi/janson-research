@@ -53,6 +53,6 @@ while i < 1:
     # visuals
     #G.visualize_graph(r, s_ix, show_edges='relevant', filename='graphs/'+filename)
     #G.visualize_graph(r, s_ix, show_edges='all', filename='graphs/'+filename)
-    #G.path_angle_scatterplot(s_ix, filename='plots/'+filename)
+    G.path_angle_scatterplot(s_ix, filename='plots/'+filename)
                 
     i += 1
