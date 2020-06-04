@@ -123,7 +123,7 @@ class gPRM:
         plt.savefig(filename+'-'+show_edges+'.png')
         plt.close()
         
-    def path_angle_scatterplot(self, simulation_index, filename=None):
+    def path_angle_scatterplot(self, simulation_index, filename=None, plot=True):
         if filename is None:
             filename = 'Scatterplot-'+str(simulation_index)
         
@@ -137,20 +137,22 @@ class gPRM:
             x_scatter.append(np.linalg.norm(vect_1))
             y_scatter.append(angle)
             
-        # plot the scatterplot
-        plt.figure(figsize=(8,8))
-        axes = plt.gca()
-        axes.set_xlim([0,0.1])
-        #axes.margins(y=0.01)
-
-        plt.scatter(x_scatter, y_scatter, s=20, c='blue')
-        plt.title('Signed Angle Displacement x Edge Length; Simulation '+str(simulation_index))
-        plt.xlabel('path edge length')
-        plt.ylabel('path edge signed angle displacement w.r.t x_goal')
-        plt.savefig(filename+'.png')
-        plt.close()
+        if plot:
         
-        return x_scatter, y_scatter
+            # plot the scatterplot
+            plt.figure(figsize=(8,8))
+            axes = plt.gca()
+            axes.set_xlim([0,0.1])
+            #axes.margins(y=0.01)
+
+            plt.scatter(x_scatter, y_scatter, s=20, c='blue')
+            plt.title('Signed Angle Displacement x Edge Length; Simulation '+str(simulation_index))
+            plt.xlabel('path edge length')
+            plt.ylabel('path edge signed angle displacement w.r.t x_goal')
+            plt.savefig(filename+'.png')
+            plt.close()
+        
+        return [x_scatter, y_scatter]
         
     # The following are retrieval methods    
     def get_D(self):
