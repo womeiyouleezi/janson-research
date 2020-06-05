@@ -105,8 +105,8 @@ class gPRM:
         plt.figure(figsize=(10,10))
         plt.margins(0)
 
-        plt.scatter(x, y, s=7)
-        plt.scatter(x_pp, y_pp, s=7, c='red')
+        plt.scatter(x, y, s=4)
+        plt.scatter(x_pp, y_pp, s=4, c='red')
         plt.scatter(x_ip, y_ip, s=20, c='gold')
 
         for edge in edges:

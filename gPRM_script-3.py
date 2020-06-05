@@ -31,7 +31,8 @@ np.random.seed(seed)
 
 # filename should be dim-n-s_ix
 date_string = '06-04-20/'
-filename = date_string+str(s_ix)+'-dim'+str(D)+'-'+'n'+str(n)
+n_folder = 'n'+str(n)+'/'
+filename = date_string+n_folder+str(s_ix)+'-dim'+str(D)+'-'+'n'+str(n)
 
 x_init = np.array([0.1] * D)
 x_goal = np.array([0.9] * D)
@@ -58,7 +59,7 @@ while i < 1:
     print(str(len(G.get_path())-1) + ' ' + str(G.get_length()))
     
     # visuals
-    G.visualize_graph(r, s_ix, show_edges='relevant', filename='graphs/'+filename)
+    #G.visualize_graph(r, s_ix, show_edges='relevant', filename='graphs/'+filename)
     #G.visualize_graph(r, s_ix, show_edges='all', filename='graphs/'+filename)
     plotted_points = G.path_angle_scatterplot(s_ix, filename='plots/'+filename, plot=False)
     
