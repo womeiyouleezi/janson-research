@@ -298,3 +298,403 @@ IndexError: list index out of range
   path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
 /net/rcstorenfs02/ifs/rc_labs/janson_lab/lab/junulee/janson-research/gPRM.py:77: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
   path_points = np.vstack(self.V[ve] for ve in self.path[1:-1])
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/1-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/2-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/3-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/4-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/5-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/6-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/7-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/8-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/9-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/10-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/11-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/12-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/13-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/14-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/15-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/16-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/17-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/18-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/19-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/20-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/21-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/22-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/23-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/24-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/25-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/26-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/27-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/28-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/29-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/30-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/31-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/32-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/33-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/34-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/35-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/36-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/37-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/38-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/39-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/40-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/41-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/42-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/43-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/44-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/45-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/46-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/47-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/48-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/49-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/50-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/51-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/52-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/53-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/54-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/55-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/56-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/57-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/58-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/59-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/60-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/61-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/62-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/63-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/64-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/65-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/66-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/67-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/68-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/69-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/70-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/71-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/72-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/73-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/74-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/75-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/76-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/77-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/78-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/79-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/80-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/81-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/82-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/83-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/84-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/85-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/86-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/87-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/88-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/89-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/90-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/91-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/92-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/93-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/94-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/95-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/96-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/97-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/98-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/99-dim2-n1000_plotpoints.pkl'
+Traceback (most recent call last):
+  File "../gPRM_script-3.py", line 66, in <module>
+    f = open("data/"+filename+"_plotpoints.pkl","wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/06-04-20/n1000/100-dim2-n1000_plotpoints.pkl'
