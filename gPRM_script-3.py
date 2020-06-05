@@ -56,7 +56,7 @@ while i < 1:
     relative_error = G.get_error() / true_distance
     
     # to stdout
-    print(str(len(G.get_path())-1) + ' ' + str(G.get_length()))
+    #print(str(len(G.get_path())-1) + ' ' + str(G.get_length()))
     
     # visuals
     #G.visualize_graph(r, s_ix, show_edges='relevant', filename='graphs/'+filename)
