@@ -23,7 +23,7 @@ def r(n, D):
 D = int(sys.argv[1])
 n = int(sys.argv[2])
 r = r(n, D)
-s_ix=int(sys.argv[4])
+s_ix=int(sys.argv[3])
 
 # seeding 
 seed = int(D*n) * (s_ix+1)
