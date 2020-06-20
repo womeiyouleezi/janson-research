@@ -1,5 +1,5 @@
-import sys
 import numpy as np
+import pandas as pd
 from scipy.spatial import KDTree
 import math
 
@@ -114,4 +114,5 @@ E = np.array(Near(V, r(n, D)))
 
 d, path = path_algorithm(V, E)
 
-print(d)
+print(str(d)+' '+str(len(path)-1))
+# prints the distance and the number of edges (T_n + 1)
