@@ -1,6 +1,6 @@
 import numpy as np
-import pandas as pd
 from scipy.spatial import KDTree
+import sys
 import math
 
 ##################################################
@@ -92,6 +92,7 @@ def path_algorithm(V, E):
         return float('inf'), None
     
     else:
+        distance -= np.linalg.norm(V[visited[-1]] - V[visited[-2]])
         return distance, visited
     
 # start of script
