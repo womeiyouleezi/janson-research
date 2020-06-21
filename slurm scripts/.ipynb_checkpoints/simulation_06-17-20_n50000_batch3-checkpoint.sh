@@ -9,10 +9,10 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=junulee@college.harvard.edu
 #SBATCH --open-mode=append
-i=101
+i=201
 module load Anaconda3/5.0.1-fasrc02
 source activate junulee_env1
-while [ "$i" -lt "151" ]; do
+while [ "$i" -lt "301" ]; do
         python ../asymptotics-1.py 2 50000 $i
         i=`expr $i + 1`
 done

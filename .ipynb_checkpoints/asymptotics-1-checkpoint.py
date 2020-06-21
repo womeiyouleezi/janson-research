@@ -116,4 +116,4 @@ E = np.array(Near(V, r(n, D)))
 d, path = path_algorithm(V, E)
 
 print(str(d)+' '+str(len(path)-1))
-# prints the distance and the number of edges (T_n + 1)
+# prints the distance (excluding the last edge to goal) and the number of edges (T_n + 1)
