@@ -3,6 +3,8 @@ from scipy.spatial import KDTree
 import sys
 import math
 
+import pickle
+
 ##################################################
 
 # Using the graph heuristic of choosing the next node as the 
@@ -11,7 +13,7 @@ import math
 
 # r_n function
 def r(n, D):
-    return n ** (-1/(2*D))
+    return (n ** (-1/(2*D))) / 5 
 
 # Creates random sample of n points (not including init and goal)
 def SampleFree(n, d, x_init, x_goal, distr='unif'):
@@ -88,12 +90,15 @@ def path_algorithm(V, E):
             visited.append(next_piece)
             piece = next_piece
             
+    path_nodes = []
+    for v in visited:
+        path_nodes.append(V[v])
+    
     if failure:
-        return float('inf'), None
+        return path_nodes, float('inf')
     
     else:
-        distance -= np.linalg.norm(V[visited[-1]] - V[visited[-2]])
-        return distance, visited
+        return path_nodes, distance
     
 # start of script
 
@@ -106,6 +111,13 @@ s_ix=int(sys.argv[3])
 seed = int(D*n) * (s_ix+1)
 np.random.seed(seed) 
 
+# filename
+date_string = '06-24-20/'
+folder_name = 'path_points/'
+filename = date_string+folder_name+str(s_ix)+'-dim'+str(D)+'-'+'n'+str(n)
+
+# graph computation
+
 x_init = np.array([0.1] * D)
 x_goal = np.array([0.9] * D)
 true_distance = np.linalg.norm(x_init - x_goal)
@@ -113,7 +125,10 @@ true_distance = np.linalg.norm(x_init - x_goal)
 V = np.array(SampleFree(n, D, x_init, x_goal))
 E = np.array(Near(V, r(n, D)))
 
-d, path = path_algorithm(V, E)
+array, path_distance = path_algorithm(V, E)
 
-print(str(d)+' '+str(len(path)-1))
-# prints the distance (excluding the last edge to goal) and the number of edges (T_n + 1)
+print(path_distance)
+
+f = open("data/"+filename+"_pathpoints.pkl","wb")
+pickle.dump(array, f)
+f.close()

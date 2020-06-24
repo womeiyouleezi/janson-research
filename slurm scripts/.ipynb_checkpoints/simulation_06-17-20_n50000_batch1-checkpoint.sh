@@ -4,8 +4,8 @@
 #SBATCH -t 0-18:00
 #SBATCH -p serial_requeue               # or could be shared
 #SBATCH --mem=7000
-#SBATCH -o data/06-20-20/asymptotics-dim2_n50000-1.out                # use %j for jobid
-#SBATCH -e data/06-20-20/asymptotics-dim2_n50000-1.err
+#SBATCH -o data/06-24-20/asymptotics-dim2_n50000-1.out                # use %j for jobid
+#SBATCH -e data/06-24-20/asymptotics-dim2_n50000-1.err
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=junulee@college.harvard.edu
 #SBATCH --open-mode=append
