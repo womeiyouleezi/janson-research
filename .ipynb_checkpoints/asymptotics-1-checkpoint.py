@@ -112,7 +112,7 @@ seed = int(D*n) * (s_ix+1)
 np.random.seed(seed) 
 
 # filename
-date_string = '06-24-20/'
+date_string = '07-02-20/'
 folder_name = 'path_points/'
 filename = date_string+folder_name+str(s_ix)+'-dim'+str(D)+'-'+'n'+str(n)
 
