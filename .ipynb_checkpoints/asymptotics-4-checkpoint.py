@@ -111,7 +111,7 @@ radius = r(n, D)
 s_ix=int(sys.argv[3])
 
 # seeding 
-seed = int(D*n) * (s_ix+1)
+seed = int(D*n/5000) * (s_ix+1) + 1
 np.random.seed(seed) 
 
 # filename

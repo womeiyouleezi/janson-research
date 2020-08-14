@@ -12,7 +12,7 @@
 i=1
 module load Anaconda3/5.0.1-fasrc02
 source activate junulee_env1
-while [ "$i" -lt "101" ]; do
+while [ "$i" -lt "51" ]; do
         python ../asymptotics-4.py 2 5000000 $i
         i=`expr $i + 1`
 done
