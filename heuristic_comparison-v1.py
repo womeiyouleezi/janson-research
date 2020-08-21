@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.spatial import KDTree
-from scipy.spatial import uniform, expon, poisson
+from scipy.stats import uniform, expon, poisson
 
 import sys
 import math
