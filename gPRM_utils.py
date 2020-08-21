@@ -9,6 +9,8 @@ from heapq import *
 
 # Typical implementation (thanks internet)
 def dijkstra(edges, init, goal):
+    
+    # builds a adjacency list with edge weights (c)
     g = defaultdict(list)
     for l,r,c in edges:
         g[l].append((c,r))
